@@ -1,6 +1,6 @@
 <?php
 
-die('tomasz');
+die('pulled from githuB');
 
 // Define path to application directory
 defined('APPLICATION_PATH')
