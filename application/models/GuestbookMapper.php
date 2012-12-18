@@ -31,10 +31,10 @@ class Application_Model_GuestbookMapper
         );
 
         if(null === ($id = $guestbook->getId())) {
-            unset($data['id'];
+            unset($data['id']);
             $this->getDbTable()->insert($data);
         } else {
-            $this->getDbTable->update($data, array('id = ?' => $id);
+            $this->getDbTable->update($data, array('id = ?' => $id));
         }
     }
 
