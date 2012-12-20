@@ -38,7 +38,7 @@ class Application_Model_Guestbook
         foreach($options as $key => $value) {
             $method = 'set' . ucfirst($key);
             if(in_array($method, $methods)) {
-                $this->method($value);
+                $this->$method($value);
             } 
         }
         return $this;

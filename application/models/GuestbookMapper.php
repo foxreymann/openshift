@@ -26,7 +26,7 @@ class Application_Model_GuestbookMapper
     {
         $data = array(
             'email' => $guestbook->getEmail(),
-            'comment' => $questbook->getComment(),
+            'comment' => $guestbook->getComment(),
             'created' => date('Y-m-d H:i:s'),
         );
 
